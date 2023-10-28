@@ -1,44 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<gating:Gating-ML
-    xmlns:gating="http://www.isac-net.org/std/Gating-ML/v2.0/gating"
-    xmlns:data-type="http://www.isac-net.org/std/Gating-ML/v2.0/datatypes"
-    xmlns:transforms="http://www.isac-net.org/std/Gating-ML/v2.0/transformations"
->
-
-    <gating:RectangleGate gating:id="Rectangle1">
-        <data-type:custom_info>
-            SSC-H is stored with $P2G = 8
-            FL1-H is stored with $P3E = 4,0
-            These need to be factored in the implicit channel to scale before this gate is applied.
-            			<TRect>
+<gating:Gating-ML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gating="http://www.isac-net.org/std/Gating-ML/v2.0/gating" xmlns:data-type="http://www.isac-net.org/std/Gating-ML/v2.0/datatypes" xmlns:transforms="http://www.isac-net.org/std/Gating-ML/v2.0/transformations" xsi:schemaLocation="http://www.isac-net.org/std/Gating-ML/v2.0/gating 
+http://flowcyt.sourceforge.net/gating/2.0/xsd/Gating-ML.v2.0.xsd 
+http://www.isac-net.org/std/Gating-ML/v2.0/transformations 
+http://flowcyt.sourceforge.net/gating/2.0/xsd/Transformations.v2.0.xsd 
+http://www.isac-net.org/std/Gating-ML/v2.0/datatypes 
+http://flowcyt.sourceforge.net/gating/2.0/xsd/DataTypes.v2.0.xsd">
+	<gating:RectangleGate gating:id="live">
+		<data-type:custom_info>
+			<TRect>
 				<Top>1000</Top>
 				<Bottom>20.0395</Bottom>
 				<Left>88.8238</Left>
 				<Right>25808.6</Right>
 			</TRect>
-
-        </data-type:custom_info>
-		<gating:dimension gating:min="1.94852941176471" gating:max="4.41176470588235" gating:compensation-ref="FCS">
-			<data-type:fcs-dimension data-type:name="CD3 BV510-A"/>
+		</data-type:custom_info>
+		<gating:dimension gating:min="1.94852941176471" gating:max="4.41176470588235" gating:compensation-ref="uncompensated" gating:transformation-ref="TransformliveCD3_BV510-A">
+			<data-type:fcs-dimension data-type:name="FL13-A"/>
 		</gating:dimension>
-		<gating:dimension gating:min="1.30188679245283" gating:max="3" gating:compensation-ref="FCS">
-			<data-type:fcs-dimension data-type:name="L/D FVS620-A"/>
+		<gating:dimension gating:min="1.30188679245283" gating:max="3" gating:compensation-ref="uncompensated" gating:transformation-ref="TransformliveL_D_FVS620-A">
+			<data-type:fcs-dimension data-type:name="FL5-A"/>
 		</gating:dimension>
-
-    </gating:RectangleGate>
-
-
-<transforms:transformation transforms:id="TransformliveCD3_BV510-A">
+	</gating:RectangleGate>
+	<transforms:transformation transforms:id="TransformliveCD3_BV510-A">
 		<transforms:flog transforms:T="10" transforms:M="1"/>
 	</transforms:transformation>
-	<!-- <transforms:transformation transforms:id="TransformliveL/D_FVS620-A">
+	<transforms:transformation transforms:id="TransformliveL_D_FVS620-A">
 		<transforms:flog transforms:T="10" transforms:M="1"/>
-	</transforms:transformation> -->
-
-    <!-- <transforms:transformation transforms:id="Linear_10000_500">
-        <transforms:flin transforms:T="10000" transforms:A="500" />
-    </transforms:transformation> -->
-
-
+	</transforms:transformation>
 </gating:Gating-ML>
