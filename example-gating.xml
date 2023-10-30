@@ -1,0 +1,2251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gating:Gating-ML xmlns:gating="http://www.isac-net.org/std/Gating-ML/v2.0/gating" xmlns:data-type="http://www.isac-net.org/std/Gating-ML/v2.0/datatypes" xmlns:transforms="http://www.isac-net.org/std/Gating-ML/v2.0/transformations">
+  <transforms:transformation transforms:id="FSC-H">
+    <transforms:flin transforms:T="4287063.261119" transforms:A="100.0"/>
+  </transforms:transformation>
+  <transforms:transformation transforms:id="FSC-A">
+    <transforms:flin transforms:T="7594996.671664819" transforms:A="0.0"/>
+  </transforms:transformation>
+  <transforms:transformation transforms:id="SSC-H"/>
+  <transforms:transformation transforms:id="SSC-A"/>
+  <transforms:transformation transforms:id="FL1-H"/>
+  <transforms:transformation transforms:id="FL1-A"/>
+  <transforms:transformation transforms:id="FL2-H"/>
+  <transforms:transformation transforms:id="FL2-A"/>
+  <transforms:transformation transforms:id="FL3-H"/>
+  <transforms:transformation transforms:id="FL3-A"/>
+  <transforms:transformation transforms:id="FL4-H"/>
+  <transforms:transformation transforms:id="FL4-A"/>
+  <transforms:transformation transforms:id="FL5-H"/>
+  <transforms:transformation transforms:id="FL5-A"/>
+  <transforms:transformation transforms:id="FL6-H"/>
+  <transforms:transformation transforms:id="FL6-A"/>
+  <transforms:transformation transforms:id="FL7-H"/>
+  <transforms:transformation transforms:id="FL7-A"/>
+  <transforms:transformation transforms:id="FL8-H"/>
+  <transforms:transformation transforms:id="FL8-A"/>
+  <transforms:transformation transforms:id="FL9-H"/>
+  <transforms:transformation transforms:id="FL9-A"/>
+  <transforms:transformation transforms:id="FL10-H"/>
+  <transforms:transformation transforms:id="FL10-A"/>
+  <transforms:transformation transforms:id="FL11-H"/>
+  <transforms:transformation transforms:id="FL11-A"/>
+  <transforms:transformation transforms:id="FL12-H"/>
+  <transforms:transformation transforms:id="FL12-A"/>
+  <transforms:transformation transforms:id="FL13-H"/>
+  <transforms:transformation transforms:id="FL13-A"/>
+  <transforms:transformation transforms:id="FL14-H"/>
+  <transforms:transformation transforms:id="FL14-A"/>
+  <transforms:transformation transforms:id="FL15-H"/>
+  <transforms:transformation transforms:id="FL15-A"/>
+  <transforms:transformation transforms:id="FL16-H"/>
+  <transforms:transformation transforms:id="FL16-A"/>
+  <transforms:transformation transforms:id="FL17-H"/>
+  <transforms:transformation transforms:id="FL17-A"/>
+  <transforms:transformation transforms:id="FL18-H"/>
+  <transforms:transformation transforms:id="FL18-A"/>
+  <transforms:transformation transforms:id="FL19-H"/>
+  <transforms:transformation transforms:id="FL19-A"/>
+  <transforms:transformation transforms:id="FL20-H"/>
+  <transforms:transformation transforms:id="FL20-A"/>
+  <transforms:transformation transforms:id="FL21-H"/>
+  <transforms:transformation transforms:id="FL21-A"/>
+  <transforms:transformation transforms:id="FSC-Width">
+    <transforms:flin transforms:T="2000000.0" transforms:A="0.0"/>
+  </transforms:transformation>
+  <transforms:transformation transforms:id="Time">
+    <transforms:flin transforms:T="90.0" transforms:A="0.0"/>
+  </transforms:transformation>
+  <transforms:transformation transforms:id="Comp-FL1-H"/>
+  <transforms:transformation transforms:id="Comp-FL2-H"/>
+  <transforms:transformation transforms:id="Comp-FL3-H"/>
+  <transforms:transformation transforms:id="Comp-FL4-H"/>
+  <transforms:transformation transforms:id="Comp-FL5-H"/>
+  <transforms:transformation transforms:id="Comp-FL6-H"/>
+  <transforms:transformation transforms:id="Comp-FL7-H"/>
+  <transforms:transformation transforms:id="Comp-FL8-H"/>
+  <transforms:transformation transforms:id="Comp-FL9-H"/>
+  <transforms:transformation transforms:id="Comp-FL10-H"/>
+  <transforms:transformation transforms:id="Comp-FL11-H"/>
+  <transforms:transformation transforms:id="Comp-FL12-H"/>
+  <transforms:transformation transforms:id="Comp-FL13-H"/>
+  <transforms:transformation transforms:id="Comp-FL14-H"/>
+  <transforms:transformation transforms:id="Comp-FL15-H"/>
+  <transforms:transformation transforms:id="Comp-FL16-H"/>
+  <transforms:transformation transforms:id="Comp-FL17-H"/>
+  <transforms:transformation transforms:id="Comp-FL18-H"/>
+  <transforms:transformation transforms:id="Comp-FL19-H"/>
+  <transforms:transformation transforms:id="Comp-FL20-H"/>
+  <transforms:transformation transforms:id="Comp-FL21-H"/>
+  <transforms:transformation transforms:id="Comp-FL1-A"/>
+  <transforms:transformation transforms:id="Comp-FL2-A"/>
+  <transforms:transformation transforms:id="Comp-FL3-A"/>
+  <transforms:transformation transforms:id="Comp-FL4-A"/>
+  <transforms:transformation transforms:id="Comp-FL5-A"/>
+  <transforms:transformation transforms:id="Comp-FL6-A"/>
+  <transforms:transformation transforms:id="Comp-FL7-A"/>
+  <transforms:transformation transforms:id="Comp-FL8-A"/>
+  <transforms:transformation transforms:id="Comp-FL9-A"/>
+  <transforms:transformation transforms:id="Comp-FL10-A"/>
+  <transforms:transformation transforms:id="Comp-FL11-A"/>
+  <transforms:transformation transforms:id="Comp-FL12-A"/>
+  <transforms:transformation transforms:id="Comp-FL13-A"/>
+  <transforms:transformation transforms:id="Comp-FL14-A"/>
+  <transforms:transformation transforms:id="Comp-FL15-A"/>
+  <transforms:transformation transforms:id="Comp-FL16-A"/>
+  <transforms:transformation transforms:id="Comp-FL17-A"/>
+  <transforms:transformation transforms:id="Comp-FL18-A"/>
+  <transforms:transformation transforms:id="Comp-FL19-A"/>
+  <transforms:transformation transforms:id="Comp-FL20-A"/>
+  <transforms:transformation transforms:id="Comp-FL21-A"/>
+  <transforms:spectrumMatrix transforms:id="Acquisition-defined">
+    <transforms:fluorochromes>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+      <data-type:fcs-dimension data-type:name=""/>
+    </transforms:fluorochromes>
+    <transforms:detectors>
+      <data-type:fcs-dimension data-type:name="FL1-H"/>
+      <data-type:fcs-dimension data-type:name="FL2-H"/>
+      <data-type:fcs-dimension data-type:name="FL3-H"/>
+      <data-type:fcs-dimension data-type:name="FL4-H"/>
+      <data-type:fcs-dimension data-type:name="FL5-H"/>
+      <data-type:fcs-dimension data-type:name="FL6-H"/>
+      <data-type:fcs-dimension data-type:name="FL7-H"/>
+      <data-type:fcs-dimension data-type:name="FL8-H"/>
+      <data-type:fcs-dimension data-type:name="FL9-H"/>
+      <data-type:fcs-dimension data-type:name="FL10-H"/>
+      <data-type:fcs-dimension data-type:name="FL11-H"/>
+      <data-type:fcs-dimension data-type:name="FL12-H"/>
+      <data-type:fcs-dimension data-type:name="FL13-H"/>
+      <data-type:fcs-dimension data-type:name="FL14-H"/>
+      <data-type:fcs-dimension data-type:name="FL15-H"/>
+      <data-type:fcs-dimension data-type:name="FL16-H"/>
+      <data-type:fcs-dimension data-type:name="FL17-H"/>
+      <data-type:fcs-dimension data-type:name="FL18-H"/>
+      <data-type:fcs-dimension data-type:name="FL19-H"/>
+      <data-type:fcs-dimension data-type:name="FL20-H"/>
+      <data-type:fcs-dimension data-type:name="FL21-H"/>
+      <data-type:fcs-dimension data-type:name="FL1-A"/>
+      <data-type:fcs-dimension data-type:name="FL2-A"/>
+      <data-type:fcs-dimension data-type:name="FL3-A"/>
+      <data-type:fcs-dimension data-type:name="FL4-A"/>
+      <data-type:fcs-dimension data-type:name="FL5-A"/>
+      <data-type:fcs-dimension data-type:name="FL6-A"/>
+      <data-type:fcs-dimension data-type:name="FL7-A"/>
+      <data-type:fcs-dimension data-type:name="FL8-A"/>
+      <data-type:fcs-dimension data-type:name="FL9-A"/>
+      <data-type:fcs-dimension data-type:name="FL10-A"/>
+      <data-type:fcs-dimension data-type:name="FL11-A"/>
+      <data-type:fcs-dimension data-type:name="FL12-A"/>
+      <data-type:fcs-dimension data-type:name="FL13-A"/>
+      <data-type:fcs-dimension data-type:name="FL14-A"/>
+      <data-type:fcs-dimension data-type:name="FL15-A"/>
+      <data-type:fcs-dimension data-type:name="FL16-A"/>
+      <data-type:fcs-dimension data-type:name="FL17-A"/>
+      <data-type:fcs-dimension data-type:name="FL18-A"/>
+      <data-type:fcs-dimension data-type:name="FL19-A"/>
+      <data-type:fcs-dimension data-type:name="FL20-A"/>
+      <data-type:fcs-dimension data-type:name="FL21-A"/>
+    </transforms:detectors>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0772818029"/>
+      <transforms:coefficient transforms:value="0.0322552286"/>
+      <transforms:coefficient transforms:value="0.0001189054"/>
+      <transforms:coefficient transforms:value="0.0001945114"/>
+      <transforms:coefficient transforms:value="0.0002588998"/>
+      <transforms:coefficient transforms:value="0.0002198629"/>
+      <transforms:coefficient transforms:value="0.00135283"/>
+      <transforms:coefficient transforms:value="0.001315364"/>
+      <transforms:coefficient transforms:value="0.002516757"/>
+      <transforms:coefficient transforms:value="0.0006593644"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0084909704"/>
+      <transforms:coefficient transforms:value="0.004429115"/>
+      <transforms:coefficient transforms:value="0.003426272"/>
+      <transforms:coefficient transforms:value="0.0024768231"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0269524995"/>
+      <transforms:coefficient transforms:value="0.002133792"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0165507998"/>
+      <transforms:coefficient transforms:value="0.3401303887"/>
+      <transforms:coefficient transforms:value="0.1423815042"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.4161725044"/>
+      <transforms:coefficient transforms:value="0.0841959566"/>
+      <transforms:coefficient transforms:value="0.0333330706"/>
+      <transforms:coefficient transforms:value="0.0354783498"/>
+      <transforms:coefficient transforms:value="0.001704975"/>
+      <transforms:coefficient transforms:value="0.001063037"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0022460939"/>
+      <transforms:coefficient transforms:value="0.0532362089"/>
+      <transforms:coefficient transforms:value="0.0108076604"/>
+      <transforms:coefficient transforms:value="0.0055233352"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0060315351"/>
+      <transforms:coefficient transforms:value="0.0101228599"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0874533877"/>
+      <transforms:coefficient transforms:value="1.6099660397"/>
+      <transforms:coefficient transforms:value="1.8495570421"/>
+      <transforms:coefficient transforms:value="0.7755624056"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.5515882969"/>
+      <transforms:coefficient transforms:value="0.2714039981"/>
+      <transforms:coefficient transforms:value="0.4116761982"/>
+      <transforms:coefficient transforms:value="0.0366587304"/>
+      <transforms:coefficient transforms:value="0.0234098304"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0112180403"/>
+      <transforms:coefficient transforms:value="0.1605941057"/>
+      <transforms:coefficient transforms:value="0.0987414569"/>
+      <transforms:coefficient transforms:value="0.063740097"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0595916882"/>
+      <transforms:coefficient transforms:value="0.2434155941"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0324422084"/>
+      <transforms:coefficient transforms:value="0.0351863988"/>
+      <transforms:coefficient transforms:value="0.0694945604"/>
+      <transforms:coefficient transforms:value="0.0243577398"/>
+      <transforms:coefficient transforms:value="0.0117223598"/>
+      <transforms:coefficient transforms:value="0.0041800272"/>
+      <transforms:coefficient transforms:value="0.0133075798"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0044968142"/>
+      <transforms:coefficient transforms:value="0.0065623601"/>
+      <transforms:coefficient transforms:value="0.0785705969"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0094366111"/>
+      <transforms:coefficient transforms:value="0.0154542504"/>
+      <transforms:coefficient transforms:value="0.0141033996"/>
+      <transforms:coefficient transforms:value="0.0736372471"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0220475197"/>
+      <transforms:coefficient transforms:value="0.0085570803"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0004532863"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0158310905"/>
+      <transforms:coefficient transforms:value="0.005170641"/>
+      <transforms:coefficient transforms:value="0.0338700302"/>
+      <transforms:coefficient transforms:value="0.0006701463"/>
+      <transforms:coefficient transforms:value="0.0025401949"/>
+      <transforms:coefficient transforms:value="0.1215382963"/>
+      <transforms:coefficient transforms:value="0.03768434"/>
+      <transforms:coefficient transforms:value="0.0742790774"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.2686497867"/>
+      <transforms:coefficient transforms:value="0.2591615021"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.001874347"/>
+      <transforms:coefficient transforms:value="0.003466767"/>
+      <transforms:coefficient transforms:value="0.0260683708"/>
+      <transforms:coefficient transforms:value="0.0207221005"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0045887399"/>
+      <transforms:coefficient transforms:value="0.0618683398"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.01296202"/>
+      <transforms:coefficient transforms:value="0.007924608"/>
+      <transforms:coefficient transforms:value="0.0262055006"/>
+      <transforms:coefficient transforms:value="0.0003087946"/>
+      <transforms:coefficient transforms:value="0.0007589803"/>
+      <transforms:coefficient transforms:value="0.0017007031"/>
+      <transforms:coefficient transforms:value="0.0295048598"/>
+      <transforms:coefficient transforms:value="0.0735910833"/>
+      <transforms:coefficient transforms:value="0.0056590061"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.8363890052"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.004500526"/>
+      <transforms:coefficient transforms:value="0.007130947"/>
+      <transforms:coefficient transforms:value="0.0499613099"/>
+      <transforms:coefficient transforms:value="0.0366584808"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0096706636"/>
+      <transforms:coefficient transforms:value="0.0071969749"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0001954703"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0001303133"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0437953509"/>
+      <transforms:coefficient transforms:value="0.005947371"/>
+      <transforms:coefficient transforms:value="0.000968303"/>
+      <transforms:coefficient transforms:value="0.0007782622"/>
+      <transforms:coefficient transforms:value="0.1424771994"/>
+      <transforms:coefficient transforms:value="0.0311431605"/>
+      <transforms:coefficient transforms:value="0.0003475033"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.125454396"/>
+      <transforms:coefficient transforms:value="0.0768383667"/>
+      <transforms:coefficient transforms:value="0.1238408014"/>
+      <transforms:coefficient transforms:value="0.0060988441"/>
+      <transforms:coefficient transforms:value="0.0079104332"/>
+      <transforms:coefficient transforms:value="0.006669695"/>
+      <transforms:coefficient transforms:value="0.006762899"/>
+      <transforms:coefficient transforms:value="0.0445558988"/>
+      <transforms:coefficient transforms:value="0.0215119608"/>
+      <transforms:coefficient transforms:value="0.0296495594"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.1798546016"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="1.0016540289"/>
+      <transforms:coefficient transforms:value="0.3531385064"/>
+      <transforms:coefficient transforms:value="0.2271074951"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.3904889822"/>
+      <transforms:coefficient transforms:value="0.2448157072"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0790156573"/>
+      <transforms:coefficient transforms:value="0.0521324202"/>
+      <transforms:coefficient transforms:value="0.2080737054"/>
+      <transforms:coefficient transforms:value="0.0037512779"/>
+      <transforms:coefficient transforms:value="0.0055590519"/>
+      <transforms:coefficient transforms:value="0.0051844688"/>
+      <transforms:coefficient transforms:value="0.0130018899"/>
+      <transforms:coefficient transforms:value="0.0730983093"/>
+      <transforms:coefficient transforms:value="0.0168997403"/>
+      <transforms:coefficient transforms:value="0.3172352016"/>
+      <transforms:coefficient transforms:value="0.1879817992"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0516709797"/>
+      <transforms:coefficient transforms:value="0.0712036565"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.586512804"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.1120823026"/>
+      <transforms:coefficient transforms:value="0.0602701418"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.2409763932"/>
+      <transforms:coefficient transforms:value="0.1738882959"/>
+      <transforms:coefficient transforms:value="0.2797738016"/>
+      <transforms:coefficient transforms:value="0.0269045401"/>
+      <transforms:coefficient transforms:value="0.0259758197"/>
+      <transforms:coefficient transforms:value="0.0167581495"/>
+      <transforms:coefficient transforms:value="0.0107978499"/>
+      <transforms:coefficient transforms:value="0.0869511068"/>
+      <transforms:coefficient transforms:value="0.0488329008"/>
+      <transforms:coefficient transforms:value="0.0358449705"/>
+      <transforms:coefficient transforms:value="0.0088018402"/>
+      <transforms:coefficient transforms:value="0.0198769309"/>
+      <transforms:coefficient transforms:value="0.1304336041"/>
+      <transforms:coefficient transforms:value="0.1848247945"/>
+      <transforms:coefficient transforms:value="0.1816921979"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.2966012061"/>
+      <transforms:coefficient transforms:value="0.0989410132"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0774070174"/>
+      <transforms:coefficient transforms:value="0.0328954495"/>
+      <transforms:coefficient transforms:value="0.0002449035"/>
+      <transforms:coefficient transforms:value="0.0003617581"/>
+      <transforms:coefficient transforms:value="0.000467222"/>
+      <transforms:coefficient transforms:value="0.0004907892"/>
+      <transforms:coefficient transforms:value="0.001710594"/>
+      <transforms:coefficient transforms:value="0.00147767"/>
+      <transforms:coefficient transforms:value="0.0030454861"/>
+      <transforms:coefficient transforms:value="0.0008827923"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0094724866"/>
+      <transforms:coefficient transforms:value="0.0050212122"/>
+      <transforms:coefficient transforms:value="0.003993284"/>
+      <transforms:coefficient transforms:value="0.0028406461"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0229714494"/>
+      <transforms:coefficient transforms:value="0.0021104519"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0156506896"/>
+      <transforms:coefficient transforms:value="0.3026920855"/>
+      <transforms:coefficient transforms:value="0.1276158988"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.4141395986"/>
+      <transforms:coefficient transforms:value="0.084786877"/>
+      <transforms:coefficient transforms:value="0.0345045999"/>
+      <transforms:coefficient transforms:value="0.0358602591"/>
+      <transforms:coefficient transforms:value="0.001624436"/>
+      <transforms:coefficient transforms:value="0.001282463"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.002580737"/>
+      <transforms:coefficient transforms:value="0.0471397489"/>
+      <transforms:coefficient transforms:value="0.00982414"/>
+      <transforms:coefficient transforms:value="0.005004385"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0049092649"/>
+      <transforms:coefficient transforms:value="0.007692738"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0863435492"/>
+      <transforms:coefficient transforms:value="1.403695941"/>
+      <transforms:coefficient transforms:value="1.6109889746"/>
+      <transforms:coefficient transforms:value="0.7867035866"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.5608546138"/>
+      <transforms:coefficient transforms:value="0.2842704058"/>
+      <transforms:coefficient transforms:value="0.4171346128"/>
+      <transforms:coefficient transforms:value="0.0366234891"/>
+      <transforms:coefficient transforms:value="0.0260746107"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.01560653"/>
+      <transforms:coefficient transforms:value="0.1587961018"/>
+      <transforms:coefficient transforms:value="0.0965126976"/>
+      <transforms:coefficient transforms:value="0.0612734593"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0469919294"/>
+      <transforms:coefficient transforms:value="0.1821102053"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0315682888"/>
+      <transforms:coefficient transforms:value="0.0315950401"/>
+      <transforms:coefficient transforms:value="0.0630697086"/>
+      <transforms:coefficient transforms:value="0.0260859206"/>
+      <transforms:coefficient transforms:value="0.0135888997"/>
+      <transforms:coefficient transforms:value="0.0055731218"/>
+      <transforms:coefficient transforms:value="0.0161375999"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0039367219"/>
+      <transforms:coefficient transforms:value="0.0076842979"/>
+      <transforms:coefficient transforms:value="0.0691319406"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0108759003"/>
+      <transforms:coefficient transforms:value="0.0159818903"/>
+      <transforms:coefficient transforms:value="0.0139471302"/>
+      <transforms:coefficient transforms:value="0.0689876899"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0186385307"/>
+      <transforms:coefficient transforms:value="0.0078724883"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.000347723"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0014090399"/>
+      <transforms:coefficient transforms:value="0.0054065809"/>
+      <transforms:coefficient transforms:value="0.0346924998"/>
+      <transforms:coefficient transforms:value="0.001057326"/>
+      <transforms:coefficient transforms:value="0.0035164901"/>
+      <transforms:coefficient transforms:value="0.1391392946"/>
+      <transforms:coefficient transforms:value="0.0442273617"/>
+      <transforms:coefficient transforms:value="0.0851860493"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.269010812"/>
+      <transforms:coefficient transforms:value="0.2584483027"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.002546635"/>
+      <transforms:coefficient transforms:value="0.0042057722"/>
+      <transforms:coefficient transforms:value="0.0282170903"/>
+      <transforms:coefficient transforms:value="0.0221711006"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0045385198"/>
+      <transforms:coefficient transforms:value="0.0537647791"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0145630501"/>
+      <transforms:coefficient transforms:value="0.0080409404"/>
+      <transforms:coefficient transforms:value="0.0274936091"/>
+      <transforms:coefficient transforms:value="0.0006600897"/>
+      <transforms:coefficient transforms:value="0.001343252"/>
+      <transforms:coefficient transforms:value="0.0027872331"/>
+      <transforms:coefficient transforms:value="0.035908211"/>
+      <transforms:coefficient transforms:value="0.0850654766"/>
+      <transforms:coefficient transforms:value="0.0063763661"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.8323152065"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0059599411"/>
+      <transforms:coefficient transforms:value="0.0084342929"/>
+      <transforms:coefficient transforms:value="0.0539427809"/>
+      <transforms:coefficient transforms:value="0.0391490012"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0095198108"/>
+      <transforms:coefficient transforms:value="0.007057277"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.00020784"/>
+      <transforms:coefficient transforms:value="0.0001390641"/>
+      <transforms:coefficient transforms:value="0.0002274904"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0001050537"/>
+      <transforms:coefficient transforms:value="0.0001435986"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0460679382"/>
+      <transforms:coefficient transforms:value="0.006965287"/>
+      <transforms:coefficient transforms:value="0.001565225"/>
+      <transforms:coefficient transforms:value="0.001169195"/>
+      <transforms:coefficient transforms:value="0.0991548225"/>
+      <transforms:coefficient transforms:value="0.0219947696"/>
+      <transforms:coefficient transforms:value="0.0005146876"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.1237638965"/>
+      <transforms:coefficient transforms:value="0.0680826232"/>
+      <transforms:coefficient transforms:value="0.1134769022"/>
+      <transforms:coefficient transforms:value="0.009542862"/>
+      <transforms:coefficient transforms:value="0.0122437496"/>
+      <transforms:coefficient transforms:value="0.0106809996"/>
+      <transforms:coefficient transforms:value="0.0128128296"/>
+      <transforms:coefficient transforms:value="0.0497542098"/>
+      <transforms:coefficient transforms:value="0.0201757103"/>
+      <transforms:coefficient transforms:value="0.0356062613"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.1935580969"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.9957057238"/>
+      <transforms:coefficient transforms:value="0.352740109"/>
+      <transforms:coefficient transforms:value="0.2203613073"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0910689831"/>
+      <transforms:coefficient transforms:value="0.1977429986"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.07873559"/>
+      <transforms:coefficient transforms:value="0.0455143303"/>
+      <transforms:coefficient transforms:value="0.1873223037"/>
+      <transforms:coefficient transforms:value="0.0053969561"/>
+      <transforms:coefficient transforms:value="0.0082313577"/>
+      <transforms:coefficient transforms:value="0.0076996582"/>
+      <transforms:coefficient transforms:value="0.0204244796"/>
+      <transforms:coefficient transforms:value="0.0759571567"/>
+      <transforms:coefficient transforms:value="0.0138362003"/>
+      <transforms:coefficient transforms:value="0.2863504887"/>
+      <transforms:coefficient transforms:value="0.1661303043"/>
+      <transforms:coefficient transforms:value="0.009782481"/>
+      <transforms:coefficient transforms:value="0.0574515909"/>
+      <transforms:coefficient transforms:value="0.0727989525"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.5855097771"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0910006687"/>
+      <transforms:coefficient transforms:value="0.0516228899"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.2518692911"/>
+      <transforms:coefficient transforms:value="0.1610480994"/>
+      <transforms:coefficient transforms:value="0.2659640908"/>
+      <transforms:coefficient transforms:value="0.0352369882"/>
+      <transforms:coefficient transforms:value="0.0382342786"/>
+      <transforms:coefficient transforms:value="0.0264277402"/>
+      <transforms:coefficient transforms:value="0.0209595598"/>
+      <transforms:coefficient transforms:value="0.1000816971"/>
+      <transforms:coefficient transforms:value="0.0446585901"/>
+      <transforms:coefficient transforms:value="0.0456147194"/>
+      <transforms:coefficient transforms:value="0.0117313499"/>
+      <transforms:coefficient transforms:value="0.05007305"/>
+      <transforms:coefficient transforms:value="0.1520240009"/>
+      <transforms:coefficient transforms:value="0.1969404072"/>
+      <transforms:coefficient transforms:value="0.1871321052"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.2503223121"/>
+      <transforms:coefficient transforms:value="0.0923144668"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+    </transforms:spectrum>
+    <transforms:spectrum>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="0.0"/>
+      <transforms:coefficient transforms:value="1.0"/>
+    </transforms:spectrum>
+  </transforms:spectrumMatrix>
+  <gating:PolygonGate gating:id="cells">
+    <gating:dimension gating:transformation-ref="FSC-A">
+      <data-type:fcs-dimension data-type:name="FSC-A"/>
+    </gating:dimension>
+    <gating:dimension gating:transformation-ref="SSC-A">
+      <data-type:fcs-dimension data-type:name="SSC-A"/>
+    </gating:dimension>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.2184873949579832"/>
+      <gating:coordinate data-type:value="0.48611111110809274"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.11764705882352942"/>
+      <gating:coordinate data-type:value="0.7314814814769396"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.273109243697479"/>
+      <gating:coordinate data-type:value="0.8425925925873607"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.6092436974789915"/>
+      <gating:coordinate data-type:value="0.8796296296241679"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.7563025210084033"/>
+      <gating:coordinate data-type:value="0.8842592592537689"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.8067226890756303"/>
+      <gating:coordinate data-type:value="0.7175925925881369"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.7941176470588236"/>
+      <gating:coordinate data-type:value="0.6203703703665183"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.6638655462184874"/>
+      <gating:coordinate data-type:value="0.5694444444409087"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.36554621848739494"/>
+      <gating:coordinate data-type:value="0.5046296296264963"/>
+    </gating:vertex>
+  </gating:PolygonGate>
+  <gating:PolygonGate gating:id="single" gating:parent_id="cells">
+    <gating:dimension gating:transformation-ref="FSC-A">
+      <data-type:fcs-dimension data-type:name="FSC-A"/>
+    </gating:dimension>
+    <gating:dimension gating:transformation-ref="FSC-H">
+      <data-type:fcs-dimension data-type:name="FSC-H"/>
+    </gating:dimension>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.5294117647058824"/>
+      <gating:coordinate data-type:value="0.9305587952009908"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.3949579831932773"/>
+      <gating:coordinate data-type:value="0.8425999357889123"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.06302521008403361"/>
+      <gating:coordinate data-type:value="0.29169971105010584"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.1050420168067227"/>
+      <gating:coordinate data-type:value="0.18522319702495832"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.2310924369747899"/>
+      <gating:coordinate data-type:value="0.29169971105010584"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="0.6470588235294117"/>
+      <gating:coordinate data-type:value="0.8842646586683179"/>
+    </gating:vertex>
+  </gating:PolygonGate>
+  <gating:PolygonGate gating:id="live CD3" gating:parent_id="single">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL13-A">
+      <data-type:fcs-dimension data-type:name="FL13-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL5-A">
+      <data-type:fcs-dimension data-type:name="FL5-A"/>
+    </gating:dimension>
+    <gating:vertex>
+      <gating:coordinate data-type:value="1735.033176328342"/>
+      <gating:coordinate data-type:value="1304.5090001621702"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="1270.0757724170483"/>
+      <gating:coordinate data-type:value="1059.5783341833328"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="1184.6157446979332"/>
+      <gating:coordinate data-type:value="778.6346553362755"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="1287.1970279886461"/>
+      <gating:coordinate data-type:value="5.76736966828056"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="3028.6945361636185"/>
+      <gating:coordinate data-type:value="43.794059654498135"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="3080.390299161935"/>
+      <gating:coordinate data-type:value="834.7680577929036"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="2856.36931790196"/>
+      <gating:coordinate data-type:value="1285.6005194387724"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="2114.9653269005835"/>
+      <gating:coordinate data-type:value="1304.5090001621702"/>
+    </gating:vertex>
+  </gating:PolygonGate>
+  <gating:PolygonGate gating:id="CD8 pos" gating:parent_id="live CD3">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL10-A">
+      <data-type:fcs-dimension data-type:name="FL10-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL16-A">
+      <data-type:fcs-dimension data-type:name="FL16-A"/>
+    </gating:dimension>
+    <gating:vertex>
+      <gating:coordinate data-type:value="4016.1585244953003"/>
+      <gating:coordinate data-type:value="1971.7907461384016"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="2466.772052409487"/>
+      <gating:coordinate data-type:value="1816.9895052013082"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="1497.024231274385"/>
+      <gating:coordinate data-type:value="1260.1080076180608"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="1497.024231274385"/>
+      <gating:coordinate data-type:value="0.0"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="4043.105837305588"/>
+      <gating:coordinate data-type:value="37.98838019493456"/>
+    </gating:vertex>
+    <gating:vertex>
+      <gating:coordinate data-type:value="4070.0531547437613"/>
+      <gating:coordinate data-type:value="1845.1014110186688"/>
+    </gating:vertex>
+  </gating:PolygonGate>
+  <gating:RectangleGate gating:id="CCR7 pos, CD45RA pos" gating:parent_id="CD8 pos">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL15-A" gating:min="1559.4271661596654" gating:max="2599.556300913543">
+      <data-type:fcs-dimension data-type:name="FL15-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL8-A" gating:min="1595.646140670367" gating:max="2889.211426104506">
+      <data-type:fcs-dimension data-type:name="FL8-A"/>
+    </gating:dimension>
+  </gating:RectangleGate>
+  <gating:RectangleGate gating:id="IFNg neg, TNFa pos" gating:parent_id="CD8 pos">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL1-A" gating:min="139.5475368941644" gating:max="1398.7389405711522">
+      <data-type:fcs-dimension data-type:name="FL1-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL9-A" gating:min="1539.3552966661957" gating:max="3549.2838494517105">
+      <data-type:fcs-dimension data-type:name="FL9-A"/>
+    </gating:dimension>
+  </gating:RectangleGate>
+  <gating:RectangleGate gating:id="IFNg pos, TNFa pos" gating:parent_id="CD8 pos">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL1-A" gating:min="2072.8755868606245" gating:max="3476.5647738692614">
+      <data-type:fcs-dimension data-type:name="FL1-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL9-A" gating:min="1483.2060561137591" gating:max="3507.1515488238424">
+      <data-type:fcs-dimension data-type:name="FL9-A"/>
+    </gating:dimension>
+  </gating:RectangleGate>
+  <gating:RectangleGate gating:id="IL-2 neg , TNFa neg" gating:parent_id="CD8 pos">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL4-A" gating:max="1531.7536465024987">
+      <data-type:fcs-dimension data-type:name="FL4-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL9-A" gating:max="1161.9052907711343">
+      <data-type:fcs-dimension data-type:name="FL9-A"/>
+    </gating:dimension>
+  </gating:RectangleGate>
+  <gating:RectangleGate gating:id="IL-2 neg , TNFa pos" gating:parent_id="CD8 pos">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL4-A" gating:max="1531.7536465024987">
+      <data-type:fcs-dimension data-type:name="FL4-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL9-A" gating:min="1161.9052907711343">
+      <data-type:fcs-dimension data-type:name="FL9-A"/>
+    </gating:dimension>
+  </gating:RectangleGate>
+  <gating:RectangleGate gating:id="IL-2 pos , TNFa neg" gating:parent_id="CD8 pos">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL4-A" gating:min="1531.7536465024987">
+      <data-type:fcs-dimension data-type:name="FL4-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL9-A" gating:max="1161.9052907711343">
+      <data-type:fcs-dimension data-type:name="FL9-A"/>
+    </gating:dimension>
+  </gating:RectangleGate>
+  <gating:RectangleGate gating:id="IL-2 pos , TNFa pos" gating:parent_id="CD8 pos">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL4-A" gating:min="1531.7536465024987">
+      <data-type:fcs-dimension data-type:name="FL4-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL9-A" gating:min="1161.9052907711343">
+      <data-type:fcs-dimension data-type:name="FL9-A"/>
+    </gating:dimension>
+  </gating:RectangleGate>
+  <gating:RectangleGate gating:id="TNFa pos IL10 neg" gating:parent_id="CD8 pos">
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL12-A" gating:min="886.6521014407311" gating:max="1734.6310123814856">
+      <data-type:fcs-dimension data-type:name="FL12-A"/>
+    </gating:dimension>
+    <gating:dimension gating:compensation-ref="Acquisition-defined" gating:transformation-ref="FL9-A" gating:min="1329.1789195250503" gating:max="3465.0191193144215">
+      <data-type:fcs-dimension data-type:name="FL9-A"/>
+    </gating:dimension>
+  </gating:RectangleGate>
+</gating:Gating-ML>
