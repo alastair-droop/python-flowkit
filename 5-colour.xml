@@ -1,6 +1,10 @@
 <gating:Gating-ML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gating="http://www.isac-net.org/std/Gating-ML/v2.0/gating" xmlns:data-type="http://www.isac-net.org/std/Gating-ML/v2.0/datatypes" xmlns:transforms="http://www.isac-net.org/std/Gating-ML/v2.0/transformations" xsi:schemaLocation="http://www.isac-net.org/std/Gating-ML/v2.0/gating 
-http://flowcyt.sourceforge.net/gating/2.0/xsd/Gating-ML.v2.0.xsd http://www.isac-net.org/std/Gating-ML/v2.0/transformations http://flowcyt.sourceforge.net/gating/2.0/xsd/Transformations.v2.0.xsd http://www.isac-net.org/std/Gating-ML/v2.0/datatypes http://flowcyt.sourceforge.net/gating/2.0/xsd/DataTypes.v2.0.xsd">
-	<gating:PolygonGate gating:id="singles" gating:parent_id="CD45hi SSlow">
+http://flowcyt.sourceforge.net/gating/2.0/xsd/Gating-ML.v2.0.xsd 
+http://www.isac-net.org/std/Gating-ML/v2.0/transformations 
+http://flowcyt.sourceforge.net/gating/2.0/xsd/Transformations.v2.0.xsd 
+http://www.isac-net.org/std/Gating-ML/v2.0/datatypes 
+http://flowcyt.sourceforge.net/gating/2.0/xsd/DataTypes.v2.0.xsd">
+	<gating:PolygonGate gating:id="singles" gating:parent_id="CD45hi_SSlow">
 		<gating:dimension gating:compensation-ref="FCS" gating:transformation-ref="TransformsinglesFSC-H">
 			<data-type:fcs-dimension data-type:name="FSC-H"/>
 		</gating:dimension>
@@ -68,7 +72,7 @@ http://flowcyt.sourceforge.net/gating/2.0/xsd/Gating-ML.v2.0.xsd http://www.isa
 	<transforms:transformation transforms:id="TransformLeucoFSC-A">
 		<transforms:flin transforms:T="1" transforms:A="0"/>
 	</transforms:transformation>
-	<gating:RectangleGate gating:id="CD45hi SSlow">
+	<gating:RectangleGate gating:id="CD45hi_SSlow">
 		<data-type:custom_info>
 			<TRect>
 				<Top>476120</Top>
@@ -77,17 +81,17 @@ http://flowcyt.sourceforge.net/gating/2.0/xsd/Gating-ML.v2.0.xsd http://www.isa
 				<Right>197825</Right>
 			</TRect>
 		</data-type:custom_info>
-		<gating:dimension gating:min="0.562134811944791" gating:max="0.70682069941599" gating:compensation-ref="FCS" gating:transformation-ref="TransformCD45hi SSlowFL6-A">
+		<gating:dimension gating:min="0.562134811944791" gating:max="0.70682069941599" gating:compensation-ref="FCS" gating:transformation-ref="TransformCD45hi_SSlowFL6-A">
 			<data-type:fcs-dimension data-type:name="FL6-A"/>
 		</gating:dimension>
-		<gating:dimension gating:min="209902.476207447" gating:max="476120.250909574" gating:compensation-ref="FCS" gating:transformation-ref="TransformCD45hi SSlowFSC-A">
+		<gating:dimension gating:min="209902.476207447" gating:max="476120.250909574" gating:compensation-ref="FCS" gating:transformation-ref="TransformCD45hi_SSlowFSC-A">
 			<data-type:fcs-dimension data-type:name="FSC-A"/>
 		</gating:dimension>
 	</gating:RectangleGate>
-	<transforms:transformation transforms:id="TransformCD45hi SSlowFL6-A">
+	<transforms:transformation transforms:id="TransformCD45hi_SSlowFL6-A">
 		<transforms:logicle transforms:T="10000000.0047343" transforms:M="5.81336080221989" transforms:W="0.575924656118508" transforms:A="0"/>
 	</transforms:transformation>
-	<transforms:transformation transforms:id="TransformCD45hi SSlowFSC-A">
+	<transforms:transformation transforms:id="TransformCD45hi_SSlowFSC-A">
 		<transforms:flin transforms:T="1" transforms:A="0"/>
 	</transforms:transformation>
 </gating:Gating-ML>
